@@ -32,3 +32,9 @@ now whatever modules and packages listed in src folder can be access outside the
 5. Added dataset to notebook folder
 6. Push your data into mongodb server via notebook code i.e mongodb.ipynb file
 7. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format (check)
+
+
+------------------------------ logging, exception and notebooks --------------------------- 
+14. Write the logger file and test it on demo.py
+15. Write the exception file and test it on demo.py
+16. EDA and Feature Engg notebook added.

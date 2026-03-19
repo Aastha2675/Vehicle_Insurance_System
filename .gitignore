@@ -20,6 +20,7 @@ dist/
 
 # Logs
 *.log
+logs/
 
 # IDE / Editor
 .vscode/
@@ -30,3 +31,7 @@ dist/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+
+# Notes
+challenges_faced.txt

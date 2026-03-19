@@ -1,1 +1,32 @@
-1. Create project structure using template.py 
+---------------------- Project Setup -----------------------------------------
+
+1. Create project structure using template.py (priject folder structure)
+2. Create the setup for the project
+3. Create virtual environment
+    "python -m venv vehicle_project"
+
+    activate the virual environment
+    ".vehicle_project\Script\activate"
+
+    add all required modules to requirement.txt
+    "pip install -r requirement.txt"
+4. Do "pip list" on terminal to make sure all the packages are installed successfully 
+
+
+----------------------------- Requirement.txt (extra info)----------------------------------
+
+It contains all the packages and dependencies required to run the application 
+at last we have "-e ." which add extra dependencies to run the required depenciencies.
+
+so, when we do "pip install -r requirement.txt" it creates new folder src.egg-info
+now whatever modules and packages listed in src folder can be access outside the src folder, enables smooth communication
+
+
+----------------------- MongoDB Setup ----------------------------------------
+
+1. Login -> Go to Organisation -> Create Project -> Create Cluster -> Create DB user
+2. Go to "network access" and add ip address - "0.0.0.0/0" so that we can access it from anywhere
+3. Go back to project >> "Get Connection String" >> "Drivers" >> {Driver:Python, Version:4.7 or later} 
+   >> copy and save the connection string with you(replace password). >> Done.
+4. 
+

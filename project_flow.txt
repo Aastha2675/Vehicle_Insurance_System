@@ -1,6 +1,6 @@
 ---------------------- Project Setup -----------------------------------------
 
-1. Create project structure using template.py (priject folder structure)
+1. Create project structure using template.py (project folder structure)
 2. Create the setup for the project
 3. Create virtual environment
     "python -m venv vehicle_project"
@@ -28,5 +28,7 @@ now whatever modules and packages listed in src folder can be access outside the
 2. Go to "network access" and add ip address - "0.0.0.0/0" so that we can access it from anywhere
 3. Go back to project >> "Get Connection String" >> "Drivers" >> {Driver:Python, Version:4.7 or later} 
    >> copy and save the connection string with you(replace password). >> Done.
-4. 
-
+4. Create a folder named "notebook" >> create file "mongodb.ipynb" >> then select the kernel "your virtual environment"
+5. Added dataset to notebook folder
+6. Push your data into mongodb server via notebook code i.e mongodb.ipynb file
+7. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format (check)

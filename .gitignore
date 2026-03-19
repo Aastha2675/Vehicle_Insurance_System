@@ -32,6 +32,9 @@ logs/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# Credentials
+credentials.py
+
 
 # Notes
 challenges_faced.txt

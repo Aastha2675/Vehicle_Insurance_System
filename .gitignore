@@ -22,6 +22,9 @@ dist/
 *.log
 logs/
 
+# models
+*.pkl
+
 # IDE / Editor
 .vscode/
 .idea/
